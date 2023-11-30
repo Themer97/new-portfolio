@@ -62,10 +62,10 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: 'CorpComment',
+    title: 'Unidrive',
     description:
-      'I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.',
-    tags: ['React', 'Next.js', 'MongoDB', 'Tailwind', 'Prisma'],
+      'I worked as a front-end developer on this project for 6 months. Users can give public feedback to companies.',
+    tags: ['React', 'Next.js', 'Sass', 'Redux Toolkit'],
     imageUrl: corpcommentImg,
   },
   {

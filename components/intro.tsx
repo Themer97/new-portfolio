@@ -16,7 +16,7 @@ export default function Intro() {
           <motion.div
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
-            transition={{ type: 'tween', duration: 0.5 }}
+            transition={{ type: 'tween', duration: 0.2 }}
           >
             <Image
               src='https://images.unsplash.com/photo-1700448170710-df7b4dcd756e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
@@ -32,13 +32,18 @@ export default function Intro() {
             className='absolute bottom-0 right-0 text-4xl'
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
-            transition={{ type: 'spring', stiffness: 125, delay: 0.1 }}
+            transition={{
+              type: 'spring',
+              stiffness: 125,
+              delay: 0.1,
+              duration: 0.7,
+            }}
           >
             👋
           </motion.span>
         </div>
       </div>
-      <motion.p
+      <motion.h1
         className='mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl'
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
@@ -49,7 +54,7 @@ export default function Intro() {
         I enjoy building <span className='italic'>sites & apps</span>. My focus
         is
         <span className='underline'> React (Next.js)</span>.
-      </motion.p>
+      </motion.h1>
       <motion.div
         className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'
         initial={{ opacity: 0, y: 100 }}
