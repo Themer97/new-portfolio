@@ -9,7 +9,6 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithub } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import Link from "next/link";
 import profilePic from "@/public/Themer.jpeg";
 
 export default function Intro() {
@@ -40,7 +39,7 @@ export default function Intro() {
               height="220"
               quality="95"
               priority={true}
-              className="h-48 w-48 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              className="h-36 w-36 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
           </motion.div>
           <motion.span
