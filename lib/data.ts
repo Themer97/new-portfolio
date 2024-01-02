@@ -77,7 +77,7 @@ export const projectsData = [
     imageUrl: myInspireImg,
   },
   {
-    title: 'Word Analytics',
+    title: 'Baby World',
     description:
       'A tracking app for pharmaceutical company to track their medical representatives',
     tags: ['React-native', 'TypeScript', 'Tailwind', 'Redux', 'Framer'],
