@@ -9,6 +9,8 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithub } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import Link from "next/link";
+import profilePic from "@/public/Themer.jpeg";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -32,13 +34,13 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://images.unsplash.com/photo-1700448170710-df7b4dcd756e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src={profilePic}
               alt="Themer's portfolio"
-              width="192"
-              height="192"
+              width="220"
+              height="220"
               quality="95"
               priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              className="h-48 w-48 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
           </motion.div>
           <motion.span
