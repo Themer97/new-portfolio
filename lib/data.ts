@@ -76,6 +76,7 @@ export const projectsData = [
       "internal company app. We can using this app demand daysoff, remote work or authorizations. Also we can check our balances,I was in charge of the web and mobile app.",
     tags: ["React-native", "TypeScript", "Tailwind", "Redux"],
     imageUrl: myInspireImg,
+    projectLink: null,
   },
   {
     title: "Baby World",
@@ -83,6 +84,7 @@ export const projectsData = [
       "Application for medical representatives to find out about doctors visits and products to market. I got involved in the implementation and dynamisation of this app.",
     tags: ["React-native", "TypeScript", "Tailwind", "Redux", "Framer"],
     imageUrl: babyWorldImg,
+    projectLink: null,
   },
   {
     title: "CocktailDB",
