@@ -10,6 +10,7 @@ import { FaGithub } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import profilePic from "@/public/Themer.jpeg";
+import { links } from "@/lib/data";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -82,7 +83,7 @@ export default function Intro() {
               href="#contact"
               className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
               onClick={() => {
-                setActiveSection(link.name);
+                setActiveSection(links[5].name);
                 setTimeOfLastClick(Date.now());
               }}
             >
