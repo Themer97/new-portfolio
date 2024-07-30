@@ -52,10 +52,10 @@ export const experiencesData = [
     date: "2023",
   },
   {
-    title: "Front-End Developer",
+    title: "Full-Stack Developer",
     location: "Menzah, Ariana",
     description:
-      "I'am working as a front-end developer for 1 year in this job.",
+      "I'm working as a Full-Stack developer for 2 years in this job.",
     icon: React.createElement(CgWorkAlt),
     date: "currently",
   },

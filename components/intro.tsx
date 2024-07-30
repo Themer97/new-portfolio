@@ -66,9 +66,8 @@ export default function Intro() {
           >
             <span className="font-bold">Hello, I&apos;m Themer.</span> I&apos;m
             a<span className="font-bold"> Full-Stack developer</span> with
-            <span className="font-bold"> one and a half years</span> of
-            experience. I enjoy building{" "}
-            <span className="italic">sites & apps</span>. My focus is
+            <span className="font-bold"> 2 years</span> of experience. I enjoy
+            building <span className="italic">sites & apps</span>. My focus is
             <span className="underline"> React (Next.js)</span>.
           </motion.h1>
           <motion.div
@@ -92,7 +91,7 @@ export default function Intro() {
             </Link>
             <a
               className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10"
-              href="/CV_ENG_Themer_Saanouni.pdf"
+              href="/CV_ENG_Themer_Saanouni .pdf"
               download
             >
               Download CV
