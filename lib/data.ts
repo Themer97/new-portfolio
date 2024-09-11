@@ -52,10 +52,10 @@ export const experiencesData = [
     date: "2023",
   },
   {
-    title: "Full-Stack Developer",
+    title: "Front-End Developer",
     location: "Menzah, Ariana",
     description:
-      "I'm working as a Full-Stack developer for 2 years in this job.",
+      "I'm working as a Front-End developer for 2 years in this job.",
     icon: React.createElement(CgWorkAlt),
     date: "currently",
   },
@@ -74,14 +74,7 @@ export const projectsData = [
     title: "MyInspire",
     description:
       "internal company app. We can using this app demand daysoff, remote work or authorizations. Also we can check our balances,I was in charge of the web and mobile app.",
-    tags: [
-      "React-native",
-      "TypeScript",
-      "Tailwind",
-      "Redux",
-      "Express",
-      "NodeJs",
-    ],
+    tags: ["React-native", "TypeScript", "Tailwind", "Redux"],
     imageUrl: myInspireImg,
     projectLink: null,
   },
